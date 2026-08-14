@@ -21,8 +21,7 @@ Budgeting API é uma API que recebe áudios com descrição de gastos, transcrev
 **Evoluções Autorais**  
 * **Adição de novas categorias: food, education, utilities e leisure.**
 * **Refinamento do prompt para consulta de valor.**
-* **Adicionado data e hora da adição do registro.**
-* **Adicionado consulta por voz filtrado por categoria e por data/horário.**
+* **Adicionado campo de data/horário (`dateTime`) ao registrar transações, permitindo que a IA considere esse contexto ao responder consultas por voz sobre período dos gastos.**
 
 ## Aprendizados com o desafio
 **Com esse desafio aprendi conceitos de Domain-Driven Design (DDD), aprendi a usar o Spring Boot e o Spring AI, conheci o Spring Boot Docker Compose Support, que facilitou muito rodar a aplicação com MySQL sem precisar instalar nada manualmente. Também aprendi a usar tags como os Getters e Setters do Lombok e algumas configurações do Gradle.**
