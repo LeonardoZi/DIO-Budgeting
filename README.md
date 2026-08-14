@@ -45,7 +45,7 @@ Budgeting API é uma API que recebe áudios com descrição de gastos, transcrev
 git clone https://github.com/LeonardoZi/DIO-Budgeting
 
 # Entre na pasta do projeto
-cd budgeting
+cd DIO-Budgeting
 
 # Execute a aplicação (o Docker Compose iniciará automaticamente)
 ./gradlew bootRun
